@@ -1,6 +1,6 @@
 const express = require('express');
 const routes = require('./routes');
-const seeds = require('./seeds')
+// const seeds = require('./seeds') //only needed to seed the database.
 // import sequelize connection
 const sequelize = require('./config/connection');
 
@@ -15,7 +15,7 @@ app.use(routes);
 
 
 // sync sequelize models to the database, then turn on the server
-sequelize.sync({ force: true}).then(() => {
+sequelize.sync({ force: false}).then(() => {
   app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
   });
