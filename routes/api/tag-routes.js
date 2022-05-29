@@ -30,7 +30,7 @@ router.get('/', (req, res) => {
     //     'tag_id'
     //     ],
     //     through: ProductTag,
-    //     as: 'prod_tag'
+    //     as: 'tag_id'
     //   }
     // ]
   })
