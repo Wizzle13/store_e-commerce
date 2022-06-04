@@ -20,15 +20,14 @@
   
   ## Screenshots
   <img src = "  ./screenshots/screenshot.png">
-
-  
+ 
 
   
 
   ## Links
   GitHub Repository: https://github.com/wizzle13/store_e-commerce
 
-  GitHub URL: https://wizzle13.github.io/store_e-commerce
+  Video URL: https://drive.google.com/file/d/1zzRym6eRCW9n8njp_B2mNoBrSL0dND0o/view?usp=sharing
 
 
 ![Made With](https://img.shields.io/badge/Made%20with-Ultimate%20README%20Generator-blue?style=plastic)

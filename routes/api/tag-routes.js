@@ -26,6 +26,7 @@ router.get('/', (req, res) => {
     //     model: Product,
     //     attributes: [
     //     'id',
+    
     //     'product_id',
     //     'tag_id'
     //     ],
@@ -44,6 +45,19 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
   // find a single tag by its `id`
   // be sure to include its associated Product data
+  Tag.findOne ({
+    attributes: [
+      'id',
+      'tag_name'      
+    ]
+  },
+  {
+    where: {
+      id: req.params.id
+    }
+  }
+  );  
+  
 });
 
 router.post('/', (req, res) => {
